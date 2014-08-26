@@ -1,7 +1,7 @@
 {
   "name": "lazy-then",
   "description": "lazily-evaluated promises",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -30,5 +30,7 @@
     "then",
     "lazy"
   ],
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
