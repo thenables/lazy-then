@@ -1,0 +1,34 @@
+{
+  "name": "lazy-then",
+  "description": "lazily-evaluated promises",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "thenables/lazy-then",
+  "dependencies": {
+    "native-or-bluebird": "1",
+    "memorizer": "1"
+  },
+  "devDependencies": {
+    "istanbul": "0",
+    "bluebird": "2",
+    "mocha": "1"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [
+    "promise",
+    "a+",
+    "then",
+    "lazy"
+  ],
+  "files": ["index.js"]
+}
