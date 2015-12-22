@@ -12,7 +12,7 @@
   "repository": "thenables/lazy-then",
   "dependencies": {
     "native-or-bluebird": "1",
-    "memorizer": "1"
+    "memorizer": "1.0.1"
   },
   "devDependencies": {
     "istanbul": "0",
